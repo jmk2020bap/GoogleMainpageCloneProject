@@ -1,0 +1,142 @@
+span {
+    padding-right: 7px;
+}
+
+#rightSpan {
+
+
+    float: right;
+    margin-right: 4%;
+}
+
+.foot-bar-box {
+    position: relative;
+    margin-left: 2%;
+    font-size: 9px;
+    margin-bottom: 2px;
+    width: inherit;
+}
+
+
+input {
+    border-radius: 50px;
+    border: 1px solid gray;
+}
+
+.input-box {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input,
+.foot-bar {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    width: inherit;
+}
+
+.foot-bar-element {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+    position: relative;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 12px;
+    margin-bottom: 5px;
+
+    margin-right: 2%;
+}
+
+
+.input img {
+    position: absolute;
+    left: 5px;
+    width: 12px;
+    height: 12px;
+    margin-top: 4px;
+    opacity: 0.4;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(190, 173, 173, 0.927);
+    color: white;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    font-size: 9px;
+    color: rgba(68, 59, 59, 0.849);
+}
+
+.button {
+    padding: 5px;
+    background-color: lightgray;
+    font-size: 12px;
+    color: grey;
+    border-radius: 2px;
+}
+
+
+
+#voiceIcon {
+    left: 80%;
+
+    opacity: 1;
+}
+
+#lensIcon {
+    left: 90%;
+    opacity: 1;
+
+}
+
+
+nav {
+    text-align: right;
+    margin-top: 20px;
+
+    color: black;
+}
+
+a {
+    margin: 10px;
+    font-size: 14px;
+    text-decoration: none !important;
+
+    color: inherit;
+
+}
+
+a:hover,
+a:visited {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sign-in {
+    background-color: blue;
+    color: white;
+    padding: 9px 23px;
+    border-radius: 4px;
+}
+
+.logo-box {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.logo-box img {
+    width: 200px;
+}
+
+nav>a>img {
+    max-height: 30px;
+    object-fit: scale-down;
+    vertical-align: middle;
+}

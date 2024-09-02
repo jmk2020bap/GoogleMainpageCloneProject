@@ -1,0 +1,52 @@
+ul {
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    position: relative;
+
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* top: 50%;
+    margin-top: -150px; */
+}
+
+li {
+    position: absolute;
+    opacity: 0;
+    transition: all 1s linear;
+
+}
+
+li.show {
+    opacity: 1;
+}
+
+.arrow {
+    position: absolute;
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
+}
+
+.arrow:hover {
+    cursor: -webkit-grabbing;
+}
+
+body,
+html {
+    background-color: #eeeeee;
+    height: 100%;
+}
